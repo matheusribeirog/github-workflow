@@ -25,5 +25,4 @@ jobs:
           node -v
           npm -v
           date
-        run:
-          ls -la
+      - run: ls -la
