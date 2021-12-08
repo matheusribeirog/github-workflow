@@ -25,3 +25,4 @@ jobs:
           node -v
           npm -v
           ls -la
+          date
