@@ -1,0 +1,7 @@
+print: "hello world"
+item1:
+  nome: "Matheus"
+  robbies:
+    - nome: "guitarra"
+    - pack: "conta baixo"
+    
