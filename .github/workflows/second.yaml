@@ -1,0 +1,7 @@
+on: [push]
+jobs:
+  Ola-Mundo:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Ola
+        run: echo "ola mundo"
