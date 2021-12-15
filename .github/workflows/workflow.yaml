@@ -26,3 +26,11 @@ jobs:
             npm -v
             date
       - run: ls -la
+  
+  Python-Hello:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Python
+        run: |
+          print("hello world")
+        shell: python
