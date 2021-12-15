@@ -21,8 +21,8 @@ jobs:
     steps:
       - run: echo "Hello World"
       - name: Multi-line
-        run:
-          node -v
-          npm -v
-          date
+        run: |
+            node -v
+            npm -v
+            date
       - run: ls -la
