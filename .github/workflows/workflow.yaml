@@ -29,6 +29,7 @@ jobs:
   
   Python-Hello:
     runs-on: ubuntu-latest
+    needs: ["Hello-World"]
     steps:
       - name: Python
         run: |
